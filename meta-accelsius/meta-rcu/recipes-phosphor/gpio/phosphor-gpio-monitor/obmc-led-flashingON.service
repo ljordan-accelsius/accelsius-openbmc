@@ -1,0 +1,6 @@
+[Unit]
+Description=ID Button Pressed ON Service
+
+[Service]
+Restart=no
+ExecStart=/usr/bin/env led-flashingON.sh

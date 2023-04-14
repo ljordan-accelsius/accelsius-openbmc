@@ -1,0 +1,14 @@
+#!/bin/bash
+# Power off the hosts when fan sensors crossed thresholds.
+
+echo "Power off the hosts if fansensors threshold crossed ::"
+
+#!/bin/sh# 
+Toggle the state of identify LED Group
+
+echo "ON Service Called"
+
+#set gpio value to 1
+gpioset 0 8=1
+echo "LED ON"
+

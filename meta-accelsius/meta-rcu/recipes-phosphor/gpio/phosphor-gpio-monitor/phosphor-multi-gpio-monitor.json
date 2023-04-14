@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "GPIO PIN DETECTION",
+        "LineName": "Switch",
+        "GpioNum": "11",
+        "EventMon": "BOTH",
+        "Targets": {
+            "FALLING": [
+                "obmc-led-flashingOFF.service"
+            ],
+            "RISING": [
+                "obmc-led-flashingON.service"
+            ]
+        },
+        "Continue": true
+    },
+    {
+        "Name": "GPIO PIN DETECTION",
+        "LineName": "Push_Button1",
+        "GpioNum": "10",
+        "EventMon": "BOTH",
+        "Targets": {
+            "FALLING": [
+                "obmc-led-flashingOFF.service"
+            ],
+            "RISING": [
+                "obmc-led-flashingON.service"
+            ]
+        },
+        "Continue": true
+    }
+]
